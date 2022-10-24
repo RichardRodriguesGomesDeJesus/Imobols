@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/container.css">
+    <link rel="stylesheet" href="../css/header/header.css">
+    <link rel="stylesheet" href="../css/header/header__navigation.css">
+    <link rel="stylesheet" href="../css/header/header__btn.css">
+    <link rel="stylesheet" href="../css/header/header__navigation___menu.css">
+    <link rel="stylesheet" href="../css/header/backgroudHeader.css">
+    <link rel="stylesheet" href="../css/apartment/apartment.css">
+    <link rel="stylesheet" href="../css/apartment/apartment__title.css">
+    <link rel="stylesheet" href="../css/apartment/apartment__form.css">
+    <link rel="stylesheet" href="../css/apartment/apartment__form___label.css">
+    <link rel="stylesheet" href="../css/apartment/apartment__form___input.css">
+    <link rel="stylesheet" href="../css/apartment/apartment__form___button.css">
+    <link rel="stylesheet" href="../css/footer/footer.css">
+    <link rel="stylesheet" href="../css/footer/footer__social--media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Imobols</title>
+</head>
+<body>
+    <header class="header header--backgroud">
+        <nav class="header__navigation">
+            <button class="header__btn">Menu</button>
+            <ul class="header__navigation___menu">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="./cadastro.html">Cadastre seu imóvel</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="apartment">
+            <h1 class="apartment__title">Preencha o formulario para encomendar seu apartamento</h1>
+            <form class="apartment__form">
+                <legend class="apartment__form___label">Descreva as características abaixo:</legend>
+                <textarea class="apartment__form___input" id="menssege" cols="30" rows="10" placeholder="Exemplo: desejo um apartamento com um dormitorio." data-js="menssege" required></textarea>
+                <label for="name" class="apartment__form___label">Nome</label>
+                <input type="text" class="apartment__form___input" id="name"  placeholder="Digite seu nome completo." data-js="name" pattern="^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" required>
+                <label for="tel" class="apartment__form___label">Telefone ou celular</label>
+                <input type="tel" class="apartment__form___input" id="tel" placeholder="Digite seu telefone." data-js="tel" minlength="9" required>
+                <label for="email" class="apartment__form___label" >Email</label>
+                <input type="email" class="apartment__form___input" id="email"  placeholder="Digite seu email." data-js="email"  required>
+                <div class="container"><input type="submit" class="apartment__form___button" value="Enviar" /></div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__email" id="contact">Contato: exemple@email.com</p>
+    </footer>
+</body>
+<script src="../js/mask.js"></script>
+<script src="../js/orders-apartments.js"></script>
+</html>

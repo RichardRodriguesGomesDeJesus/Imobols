@@ -1,0 +1,17 @@
+.widget__card___link{
+    background: var(--main-color);
+    border-radius: 8px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.74);
+    color: var(--font-color);
+    font-size: 1rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px;
+}
+.widget__card___link:hover{
+    background: var(--font-color);
+    border: solid var(--secondary-color) 1px;
+    color: var(--main-color);
+}

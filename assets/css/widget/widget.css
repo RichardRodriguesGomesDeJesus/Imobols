@@ -1,0 +1,19 @@
+.widget {
+    align-items: center;
+    background: var(--secondary-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 32px;
+}
+
+@media screen and (min-width: 0 ) {
+    .widget{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .widget{
+        flex-direction: row;
+    }
+}

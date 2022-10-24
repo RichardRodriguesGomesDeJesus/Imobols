@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/container.css">
+    <link rel="stylesheet" href="../css/header/header.css">
+    <link rel="stylesheet" href="../css/header/header__navigation.css">
+    <link rel="stylesheet" href="../css/header/header__btn.css">
+    <link rel="stylesheet" href="../css/header/header__navigation___menu.css">
+    <link rel="stylesheet" href="../css/header/backgroudHeader.css">
+    <link rel="stylesheet" href="../css/apartment/apartment.css">
+    <link rel="stylesheet" href="../css/apartment/apartment__title.css">
+    <link rel="stylesheet" href="../css/apartment/apartment__form.css">
+    <link rel="stylesheet" href="../css/apartment/apartment__form___label.css">
+    <link rel="stylesheet" href="../css/apartment/apartment__form___input.css">
+    <link rel="stylesheet" href="../css/apartment/apartment__form___button.css">
+    <link rel="stylesheet" href="../css/footer/footer.css">
+    <link rel="stylesheet" href="../css/footer/footer__social--media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Imobols</title>
+</head>
+<body>
+    <header class="header header--backgroud">
+        <nav class="header__navigation">
+            <button class="header__btn">Menu</button>
+            <ul class="header__navigation___menu">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="./cadastro.html">Cadastre seu imóvel</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="apartment">
+            <h1 class="apartment__title">Cadastre seu apartamento</h1>
+            <form class="apartment__form apartment__form--registration"  data-form="form">
+                <div class="container">
+                    <label for="name" class="apartment__form___label">Nome do proprietario</label>
+                    <input type="text" class="apartment__form___input" id="name" data-js="name" placeholder="Digite seu nome completo." pattern="^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" required>
+                </div>
+                <div class="container">
+                    <label for="tel" class="apartment__form___label">Telefone</label>
+                    <input type="tel" class="apartment__form___input" id="tel" data-js="tel" placeholder="Digite seu telefone." data-js="tel" minlength="9" required>
+                </div>
+                <div class="container">
+                    <label for="email" class="apartment__form___label" >Email</label>
+                    <input type="email" class="apartment__form___input" id="email" data-js="email"  placeholder="Digite seu email." required>
+                </div>
+                <div class="container">
+                    <label for="cep" class="apartment__form___label">CEP</label>
+                    <input type="number" class="apartment__form___input" id="cep" data-js="cep" placeholder="Digite o cep do imóvel." required>
+                </div>
+                <div class="container">
+                    <label for="city" class="apartment__form___label">Cidade</label>
+                    <input type="text" class="apartment__form___input"id="city" data-js="city" placeholder="Digite a cidade do imóvel onde esta o apartamento" required>
+                </div>
+                <div class="container">
+                    <label for="uf" class="apartment__form___label">Estado</label>
+                    <input type="text" class="apartment__form___input"id="uf" data-js="uf" placeholder="Digite a cidade do imóvel onde esta o apartamento" required>
+                </div>
+                <div class="container">
+                    <label for="locality" class="apartment__form___label">Bairro</label>
+                    <input type="text" class="apartment__form___input" id="locality" data-js="locality" placeholder="Digite o bairro do imóvel onde esta o apartamento" required>
+                </div>
+                <div class="container">
+                    <label for="street" class="apartment__form___label">Rua</label>
+                    <input type="text" class="apartment__form___input" id="street" data-js="street" placeholder="Digite a rua do imóvel onde esta o apartamento" required>
+                </div>
+                <div class="container">
+                    <label for="number" class="apartment__form___label">Numero</label>
+                    <input type="text" class="apartment__form___input"id="number" data-js="number" placeholder="Digite a numero do imóvel onde esta o apartamento" required>
+                </div>
+                <div class="container">
+                    <label for="" class="apartment__form___label">Édificio</label>
+                    <input type="text" class="apartment__form___input" data-js="building" placeholder="Digite o nome do édificio" required>
+                </div>
+                <div class="container">
+                    <label for="" class="apartment__form___label">numero do apartamento</label>
+                    <input type="text" class="apartment__form___input" data-js="apartmentNumber" placeholder="Digite o numero do apartamento" required>
+                </div>
+                <div class="container">
+                    <label for="rent" class="apartment__form___label">Valor do aluguel</label>
+                    <input type="tel" class="apartment__form___input" id="rent" data-js="rent" value="0,00" placeholder="Digite o valor do aluguel" required>
+                </div>
+                <div class="container">
+                    <label for="input-url" class="apartment__form___label">Foto</label>
+                    <input type="url" id="input-url" class="apartment__form___input"  data-js="photos"  placeholder="Digite uma url de uma imagem do apartamento" required>
+                </div>
+                <div class="container--button"><input type="submit" class="apartment__form___button" value="Enviar" /></div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__email" id="contact">Contato: exemple@email.com</p>
+    </footer>
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+<script src="https://plentz.github.io/jquery-maskmoney/javascripts/jquery.maskMoney.min.js" type="text/javascript"></script>
+<script src="../js/mask.js"></script>
+<script src="../js/apartmentRegistration.js"></script>
+</html>

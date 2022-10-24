@@ -1,0 +1,22 @@
+.info__description___img{
+    background: url(../../../img/pexels-mart-production-7415035.jpg) center / cover no-repeat ;
+    border-radius: 8px;
+    width: 100vw;
+}
+
+@media screen and (min-width: 0 ) {
+    .info__description___img{
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .info__description___img{
+        height: 400px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .info__description___img{
+        height: 600px;
+    }
+}

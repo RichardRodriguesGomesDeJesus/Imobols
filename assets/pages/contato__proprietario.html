@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/container.css">
+    <link rel="stylesheet" href="../css/header/header.css">
+    <link rel="stylesheet" href="../css/header/header__navigation.css">
+    <link rel="stylesheet" href="../css/header/header__btn.css">
+    <link rel="stylesheet" href="../css/header/header__navigation___menu.css">
+    <link rel="stylesheet" href="../css/header/backgroudHeader.css">
+    <link rel="stylesheet" href="../css/contact/contact.css">
+    <link rel="stylesheet" href="../css/contact/contact__title.css">
+    <link rel="stylesheet" href="../css/contact/contact__form/contact__form.css">
+    <link rel="stylesheet" href="../css/contact/contact__form/contact__form___button.css">
+    <link rel="stylesheet" href="../css/contact/contact__form/contact__form___label.css">
+    <link rel="stylesheet" href="../css/contact/contact__form/contact__form___input.css">
+    <link rel="stylesheet" href="../css/footer/footer.css">
+    <link rel="stylesheet" href="../css/footer/footer__social--media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Imobols</title>
+</head>
+<body>
+    <header class="header header--backgroud">
+        <nav class="header__navigation">
+            <button class="header__btn">Menu</button>
+            <ul class="header__navigation___menu">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="./cadastro.html">Cadastre seu imóvel</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h1 class="contact__title">Prencha o formulario para entrar em contato com o proprietário do apartamento.</h1>
+            <form class="contact__form">
+                <label for="name" class="contact__form___label">Nome</label>
+                <input type="text" class="contact__form___input" id="name" data-js="name"pattern="^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" placeholder="Digite seu nome completo.">
+                <label for="email" class="contact__form___label">Email</label>
+                <input type="email" class="contact__form___input" id="email" data-js="email" placeholder="Digite seu email.">
+                <label for="tel" class="contact__form___label">Telefone</label>
+                <input type="tel" class="contact__form___input" id="tel" data-js="tel" placeholder="Digite seu telefone.">
+                <label for="mse" class="contact__form___label">Mensagem</label>
+                <textarea name="msg" id="msg" cols="30" rows="10" class="contact__form___input" data-js="msg"  placeholder="Escreva uma mensagem"></textarea>
+                <button type="submit" class="contact__form___button">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__email" id="contact">Contato: exemple@email.com</p>
+    </footer>
+</body>
+<script src="../js/contact.js"></script>
+<script src="../js/mask.js"></script>
+</html>

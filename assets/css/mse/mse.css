@@ -1,0 +1,7 @@
+.mse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 16px;
+    height: calc(100vh - 220px);
+}

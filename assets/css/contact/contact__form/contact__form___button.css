@@ -1,0 +1,20 @@
+.contact__form___button{
+    color: var(--secondary-color);
+    background: var(--main-color);
+    border: solid 1px var(--main-color);
+    border-radius: 8px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.651);
+    font-size: 1rem;
+    font-family: var(--font-family);
+    font-weight: 600;
+    padding: 8px;
+    width: 210px;
+}
+.contact__form___button:hover{
+    cursor: pointer;
+}
+.contact__form___button:active{
+    color: var(--main-color);
+    background: var(--secondary-color);
+    border: solid 2px var(--main-color);
+}

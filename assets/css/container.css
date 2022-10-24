@@ -1,0 +1,29 @@
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    margin: 0 8px;
+}
+@media screen and (min-width: 0 ) {
+    .apartment__form--registration .container{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px ) {
+    .apartment__form--registration .container{
+        width: calc(50% - 16px);
+    }
+}
+
+.container--button{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    margin: 0 8px;
+    width: 100%;
+}

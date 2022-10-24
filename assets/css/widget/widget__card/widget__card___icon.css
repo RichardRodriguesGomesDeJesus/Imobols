@@ -1,0 +1,26 @@
+
+@media screen and (min-width: 0 ) {
+    .widget__card___icon{
+        height: 50%;
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .widget__card___icon{
+        height: 40%;
+        width: 40%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .widget__card___icon{
+        height: 55%;
+        width: 165px;
+    }
+}
+#search{
+    background: url(../../../img/search.svg) center / cover no-repeat;
+}
+#registration{
+    background: url(../../../img/key.svg)  center / cover no-repeat;
+}

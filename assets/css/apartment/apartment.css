@@ -1,0 +1,8 @@
+.apartment{
+    background: var(--secondary-color);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    padding: 16px;
+}

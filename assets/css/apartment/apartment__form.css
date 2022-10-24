@@ -1,0 +1,22 @@
+.apartment__form{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+
+
+@media screen and (min-width: 0 ) {
+    .apartment__form--registration{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px ) {
+    .apartment__form--registration{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,13 @@
+.apartment__form___input{
+    background: var(--font-color);
+    border: solid 1px var(--main-color);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    padding: 8px;
+}
+
+.apartment__form--registration .apartment__form___input{
+    width: calc(100% - 32px);
+}

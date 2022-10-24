@@ -1,0 +1,18 @@
+.widget__card___description{
+    color: var(--main-color);
+    display: flex;
+    font-family: var(--font-family);
+    flex-grow: +1;
+    text-align: center;
+}
+@media screen and (min-width: 0 ) {
+    .widget__card___description{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .widget__card___description{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,7 @@
+.footer{
+    background: var(--main-color);
+    display: flex;
+    padding: 2rem;
+    justify-content: flex-end;
+
+}

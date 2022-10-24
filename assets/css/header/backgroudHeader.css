@@ -1,0 +1,18 @@
+@media screen and (min-width: 0 ) {
+    .backgroudHeader{
+        background: var(--main-color);
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        z-index: -1;
+    }
+}
+@media screen and (min-width: 768px ) {
+    .backgroudHeader{
+        background: url(../../img/banner.jpg) center / cover no-repeat;
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        z-index: -1;
+    }
+}

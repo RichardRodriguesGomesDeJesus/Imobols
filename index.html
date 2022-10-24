@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/container.css">
+    <link rel="stylesheet" href="assets/css/header/header.css">
+    <link rel="stylesheet" href="assets/css/header/header__navigation.css">
+    <link rel="stylesheet" href="assets/css/header/header__btn.css">
+    <link rel="stylesheet" href="assets/css/header/header__navigation___menu.css">
+    <link rel="stylesheet" href="assets/css/header/backgroudHeader.css">
+    <link rel="stylesheet" href="assets/css/introduction/introduction.css">
+    <link rel="stylesheet" href="assets/css/introduction/introduction__description.css">
+    <link rel="stylesheet" href="assets/css/introduction/introduction__title.css">
+    <link rel="stylesheet" href="assets/css/showcase/showcase.css">
+    <link rel="stylesheet" href="assets/css/showcase/showcase__apartment.css">
+    <link rel="stylesheet" href="assets/css/showcase/showcase__button.css">
+    <link rel="stylesheet" href="assets/css/showcase/showcase__title.css">
+    <link rel="stylesheet" href="assets/css/showcase/showcase__apartment___card/showcase__apartment___card.css">
+    <link rel="stylesheet" href="assets/css/showcase/showcase__apartment___card/showcase__apartment___card____value.css">
+    <link rel="stylesheet" href="assets/css/showcase/showcase__apartment___card/showcase__apartment___card____description.css">
+    <link rel="stylesheet" href="assets/css/widget/widget.css">
+    <link rel="stylesheet" href="assets/css/widget/widget__card/widget__card.css">
+    <link rel="stylesheet" href="assets/css/widget/widget__card/widget__card___icon.css">
+    <link rel="stylesheet" href="assets/css/widget/widget__card/widget__card___description.css">
+    <link rel="stylesheet" href="assets/css/widget/widget__card/widget__card___link.css">
+    <link rel="stylesheet" href="assets/css/info/info.css">
+    <link rel="stylesheet" href="assets/css/info/info__title.css">
+    <link rel="stylesheet" href="assets/css/info/info__description/info__description.css">
+    <link rel="stylesheet" href="assets/css/info/info__description/info__description___text.css">
+    <link rel="stylesheet" href="assets/css/info/info__description/info__description___img.css">
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
+    <link rel="stylesheet" href="assets/css/footer/footer__social--media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Imobols</title>
+</head>
+<body>
+    <div class="backgroudHeader"></div>
+    <header class="header ">
+        <nav class="header__navigation">
+            <button class="header__btn">Menu</button>
+            <ul class="header__navigation___menu">
+                <li><a href="#info">Quem somos?</a></li>
+                <li><a href="./assets/pages/cadastro.html">Cadastre seu imóvel</a></li>
+                <li><a href="#contact">Entre em contato com nós </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="introduction">
+            <h1 class="introduction__title">Imobols</h1>
+            <p class="introduction__description">Apartamentos para alugar</p>
+        </div>
+        <section class="showcase">
+            <h3 class="showcase__title">Apartamentos</h3>
+            <div class="showcase__apartment" data-js="showcase--home">
+            </div>
+            <div class="container"><a class="showcase__button" href="./assets/pages/apartamentos.html">Veja Mais</a></div>
+        </section>
+        <section class="info" id="info">
+            <h2 class="info__title">Quem somos ?</h2>
+            <div class="info__description">
+                <div class="info__description___img"></div>
+                <p class="info__description___text">Nos da Imobols somos um site de aluguel de apartamentos que tem como objetivo, te ajudar a achar o melhor apartamento ou mostrar seu imóvel para o máximo de pessoas possível. Anunciamos de por uma taxa mínima.</p>
+            </div>
+        </section>
+        <section class="widget">
+            <div class="widget__card">
+                <div class="widget__card___icon" id="search"></div>
+                <p class="widget__card___description"> Descubra o apartamento que tanto procura rapidamente </p>
+                <a href="assets/pages/encomende-seu-imovel.html" class="widget__card___link"> Encomende o  seu apartamento</a>
+            </div>
+            <div class="widget__card">
+                <div class="widget__card___icon" id="registration"></div>
+                <p class="widget__card___description">Cadastre seu apartamento e encontre pessoas interessadas</p>
+                <a href="assets/pages/cadastro.html" class="widget__card___link">Cadastre o seu apartamento</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__email" id="contact">Contato: exemple@email.com</p>
+    </footer>
+</body>
+<script src="assets/js/btnMenu.js"></script>
+<script src="assets/js/lista.js"></script>
+</html>

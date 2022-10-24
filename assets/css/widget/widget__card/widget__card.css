@@ -1,0 +1,33 @@
+.widget__card{
+    align-items: center;
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 16px;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.671);
+    flex-direction: column;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+
+}
+
+@media screen and (min-width: 0 ) {
+    .widget__card{
+        padding: 16px;
+        margin:  16px  4px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .widget__card{
+        padding: 16px;
+        margin: 16px 8px;
+        width: 40%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .widget__card{
+        width: 368px;
+    }
+}

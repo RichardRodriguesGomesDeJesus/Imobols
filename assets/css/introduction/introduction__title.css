@@ -1,0 +1,16 @@
+.introduction__title{
+    font-family: var(--font-family);
+    font-weight: 600;
+    padding: 8px;
+}
+
+@media screen and (min-width: 0){
+    .introduction__title{
+        font-size: 2rem;
+    }
+}
+@media screen  and (min-width: 768px){
+    .introduction__title{
+        font-size: 3rem;
+    }
+}

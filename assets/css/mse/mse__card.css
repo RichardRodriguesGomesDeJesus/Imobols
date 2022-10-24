@@ -1,0 +1,9 @@
+.mse__card{
+    align-items: center;
+    background: var(--main-color);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 32px;
+}

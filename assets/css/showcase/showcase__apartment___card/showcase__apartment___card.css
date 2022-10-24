@@ -1,0 +1,33 @@
+.showcase__apartment___card{
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 8px 0;
+    text-decoration: none;
+    
+}
+
+@media screen and (min-width: 0) {
+    .showcase__apartment___card{
+        height: 80vw;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .showcase__apartment___card{
+        height: 40vw;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .showcase__apartment___card{
+        height: 20vw;
+        width: 25%;
+    }
+}
+.showcase__apartment___card img {
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+.showcase__button{
+    color: var(--secondary-color);
+    background: var(--main-color);
+    border: solid 1px var(--main-color);
+    border-radius: 8px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.651);
+    font-size: 1rem;
+    font-family: var(--font-family);
+    font-weight: 600;
+    margin-top: 8px;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 210px;
+}
+.showcase__button:hover{
+    cursor: pointer;
+}
+.showcase__button:active{
+    color: var(--main-color);
+    background: var(--secondary-color);
+    border: solid 2px var(--main-color);
+}
