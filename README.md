@@ -1,2 +1,5 @@
 # Imobols
-Para a fake api funcionar rode o comando  json-server --watch db.json
+rodar o json server: 
+```js
+  json-server --watch db.json
+```
