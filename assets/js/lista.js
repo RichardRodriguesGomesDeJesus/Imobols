@@ -1,10 +1,15 @@
 const ListHouses = document.querySelector('.showcase__apartment')
 const list = async ()=>{
-    const resposta = await fetch(`http://localhost:3000/apartments`)
-    if (resposta.ok) {
-        return await resposta.json()
+    try {
+        const resposta = await fetch(`http://localhost:3000/apartments`)
+        if (resposta.ok) {
+            return await resposta.json()
+        }
+    } catch (error) {
+        window.location.href = './assets/pages/error.html'
     }
-    throw new Error('Não foi possivel listar os apartamentos')
+    
+    
 }
 list()
 .then(list =>{
