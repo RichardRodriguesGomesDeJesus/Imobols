@@ -6,7 +6,8 @@ const list = async ()=>{
             return await resposta.json()
         }
     } catch (error) {
-        window.location.href = './assets/pages/error.html'
+        console.log('erro')
+        //window.location.href = './assets/pages/error.html'
     }
     
     
