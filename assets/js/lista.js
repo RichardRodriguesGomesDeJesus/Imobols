@@ -1,7 +1,7 @@
 const ListHouses = document.querySelector('.showcase__apartment')
 const list = async ()=>{
     try {
-        const resposta = await fetch(`http://localhost:3000/apartments`)
+        const resposta = await fetch(`https://apartamentos-aatalogo-imobols.vercel.app/apartments`)
         if (resposta.ok) {
             return await resposta.json()
         }
