@@ -14,7 +14,7 @@ const uf = document.querySelector('[data-js="uf"]')
 const form = document.querySelector('[data-form="form"]')
 cep.addEventListener("blur" ,(event)=>{
     event.preventDefault()
-    fetch(`https://viacep.com.br/ws/${cep.value}/json/`)
+    fetch(`http://viacep.com.br/ws/${cep.value}/json/`)
     .then( serverResponse =>{
         console.log(JSON.stringify(serverResponse))
         if (serverResponse.ok) {
@@ -34,7 +34,7 @@ cep.addEventListener("blur" ,(event)=>{
 })
 form.addEventListener('submit' , (event)=>{
     event.preventDefault()
-    fetch(`https://apartamentos-aatalogo-imobols.vercel.app/apartments`,
+    fetch(`http://apartamentos-aatalogo-imobols.vercel.app/apartments`,
     {
         method: 'POST',
         headers: {
