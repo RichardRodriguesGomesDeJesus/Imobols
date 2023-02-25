@@ -34,7 +34,7 @@ cep.addEventListener("blur" ,(event)=>{
 })
 form.addEventListener('submit' , (event)=>{
     event.preventDefault()
-    fetch(`https://apartamentos-aatalogo-imobols.vercel.app/apartments`,
+    fetch(`https://api-json-server-flame.vercel.app/apartments`,
     {
         method: 'POST',
         headers: {

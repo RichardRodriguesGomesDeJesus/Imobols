@@ -11,7 +11,7 @@ form.addEventListener('submit', (event) =>{
     submitOrder(name,tel,email,msg) 
 })
 function submitOrder(name,tel,email,msg) {
-    fetch('https://apartamentos-aatalogo-imobols.vercel.app/orders-apartments',
+    fetch('https://api-json-server-flame.vercel.app/orders-apartments',
     {
         method: 'POST',
         headers: {
